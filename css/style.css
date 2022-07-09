@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url(../images/pattern-background-desktop.svg) no-repeat center ;
+    background-size: cover;
+    font-family: 'Red Hat Display', sans-serif;
+    height: 93vh;
+}
+
+.container {
+    margin: 0 auto;
+    width: 20%;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 70px;
+}
+.container_img img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.container_text {
+    margin: 0 auto;
+    width: 260px;
+    text-align: center;
+}
+.container_text h2 {
+    color: hsl(223, 47%, 23%);
+    font-weight: bold;
+}
+.container_text p {
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+    font-size: 16px;
+}
+.container_preco {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    background:  hsl(225, 100%, 98%);
+    align-items: center;
+}
+
+.container_preco div img {
+    float: left;
+    margin-left: 10px;
+}
+
+.container_preco div .first{
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+}
+.container_preco div .second {
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+    font-size: 14px;
+}
+.container_preco .link{
+    color: hsl(228, 71%, 36%);
+    font-weight: bold;
+    margin-right: 10px;
+    
+}
+.link:hover {
+    text-decoration: none;
+}
+
+.btn {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(228, 45%, 44%);
+    color: #fff;
+    cursor: pointer;
+}
+.btn:hover {
+    transition: 0.4s ease-in-out;
+    background-color: hsl(228, 78%, 16%);
+}
+.cancel {
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+    cursor: pointer;
+}
+.cancel:hover {
+    text-decoration: underline;
+}
+@media (max-width: 1346px) {
+    .container{
+        width: 27%;
+    }
+}
+@media (max-width: 985px) {
+    .container{
+        width: 35%;
+    }
+}
+
+@media (max-width: 792px) {
+    .container{
+        width: 50%;
+    }
+}
+
+@media (max-width: 549px) {
+    .container{
+        width: 60%;
+    }
+}
+
+@media (max-width: 468px) {
+    .container{
+        width: 80%;
+    }
+}
+@media (max-width: 326px) {
+    .container{
+        width: 100%;
+    }
+}
+/* - Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%) */
